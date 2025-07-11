@@ -14,13 +14,14 @@ export default function Header({ searchQuery, onSearchChange }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
       <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
-          <div style={{ width: 180 }}>
+        <div className="flex flex-col sm:flex-row items-center sm:items-center justify-between">
+          <div className="w-full flex justify-center sm:w-[180px] sm:justify-start mb-2 sm:mb-0">
             <Image
               src="/voguevibe-logo.png"
               alt="VogueVibe Logo"
-              width={120}
-              height={32}
+              width={160}
+              height={44}
+              className="w-[140px] h-[38px] sm:w-[160px] sm:h-[44px]"
               priority
             />
           </div>
