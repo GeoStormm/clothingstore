@@ -19,8 +19,8 @@ export default function Header({ searchQuery, onSearchChange }: HeaderProps) {
             <Image
               src="/voguevibe-logo.png"
               alt="VogueVibe Logo"
-              width={90}
-              height={24}
+              width={67.5}
+              height={18}
               priority
             />
           </div>
